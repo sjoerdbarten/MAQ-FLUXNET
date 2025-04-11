@@ -1,0 +1,11 @@
+#######################
+#####Sjoerd Barten#####
+######2025-04-02#######
+#######################
+
+HAARWEG FLUXNET RELEASE
+
+Folder that contains scripts, processed data and other relevant meta-data to be submitted for the FLUXNET Release through the European Fluxes Database Cluster ttps://gaia.agraria.unitus.it/home.
+Scripts take input data from W:/ drive and transforms these to yearly files (30 min data).
+
+The complete dataset, both fluxes and meteorology, from the original Haarweg station (1974 – 2012) available upon request via observations.maq@wur.nl.
