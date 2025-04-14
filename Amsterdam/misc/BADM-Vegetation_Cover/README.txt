@@ -1,0 +1,1 @@
+This BADM submission is not relevant for Amsterdam and therefore not submitted.
