@@ -1,4 +1,4 @@
-VEENKAMPEN FLUXNET RELEASE
+VEENKAMPEN, HAARWEG, AMSTERDAM FLUXNET RELEASE
 
 Folder that contains scripts, processed data and other relevant meta-data to be submitted for the FLUXNET Release through the European Fluxes Database Cluster ttps://gaia.agraria.unitus.it/home.
 Scripts take input data from MAQ-Observations and transforms these to yearly files (30 min data).
