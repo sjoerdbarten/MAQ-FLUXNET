@@ -6,7 +6,7 @@ import netCDF4 as nc
 import glob
 from get_AAMS_meteo import *
 
-process_year = 2021
+process_year = 2022
 
 #Setting GLOB
 directory = 'W:\ESG\DOW_MAQ\MAQ_Archive\MAQ-Observations.nl\data\AD_FLUX\\'
