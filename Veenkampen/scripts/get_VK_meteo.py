@@ -48,6 +48,8 @@ def get_vk_meteo_func(process_year):
     df['VWC_2_3_1'] = df['VWC_2_3_1']*100.    #- to %
     df['VWC_2_4_1'] = df['VWC_2_4_1']*100.    #- to %
     df['VWC_3_1_1'] = df['VWC_3_1_1']*100.    #- to %
+	df['WTD_1_1_1'] = df['WTD_1_1_1']*-1.     #negative by convention
+
     
     #Rename columns to FLUXNET format
     #Remember that for data processing, these variables are essential: FC, SC (only if measured with a profile) or CO2, SW_IN or PPFD, TA, TS, USTAR or TAU, RH. Very important are also H, LE, SWC and Precipitation.
