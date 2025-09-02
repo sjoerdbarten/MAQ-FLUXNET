@@ -52,6 +52,7 @@ df['air_temperature'] = df['air_temperature']-273.15    #K to degC
 df['Tdew'] = df['Tdew']-273.15    #K to degC
 df['air_pressure'] = df['air_pressure']*0.001    #Pa to kPa
 df['VPD'] = df['VPD']*0.01    #Pa to hPa
+df['Tau'] = df['Tau']*-1.     #Negative by convention
 #Rename the columns to FLUXNET format
 rename_dict = {
     'TIMESTAMP_START': 'TIMESTAMP_START',
